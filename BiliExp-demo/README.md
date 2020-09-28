@@ -30,7 +30,9 @@ cd biliexp-demo
 }
 ```
 cookieDatas 获取方式： 浏览器打开B站主页并登陆--》按F12打开开发者工具--》application--》cookies
-![](https://img.serverlesscloud.cn/2020928/1601296845381-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-09-28%2020.36.26.png)
+
+[](https://img.serverlesscloud.cn/2020928/1601296845381-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-09-28%2020.36.26.png)
+
 
 4. 通过 `sls deploy` 完成部署，部署成功后，每日可自动触发
 
