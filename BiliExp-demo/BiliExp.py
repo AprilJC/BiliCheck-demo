@@ -114,7 +114,7 @@ def main(*args):
     except:
         pass
 
-    with open('config/config.json','r',encoding='utf-8') as fp:
+    with open('config.json','r',encoding='utf-8') as fp:
         configData = json.load(fp)
 
     pm = PushMessage(title="B站经验脚本消息推送", email=configData["email"])

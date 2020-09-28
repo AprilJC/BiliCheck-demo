@@ -1,0 +1,12 @@
+name: biliexp-demo 
+displayName: B站每日打卡模版
+description:  Daily check in demo for Bilibili  # 英文描述
+description-i18n:
+  zh-cn: 本项目为您提供了基于腾讯云云函数部署的B站定时签到模版 # 中文描述
+type: template #类型：模版
+keywords: bilibili, scf, checkin # 关键字
+repo: https://github.com/Jiachen0417/BiliCheck-demo/tree/master/BiliExp-demo # 源代码
+readme: https://github.com/Jiachen0417/BiliCheck-demo/blob/master/BiliExp-demo/README.md # 详细的说明文件
+license: MIT # 版权声明
+src: # 描述项目中的哪些文件需要作为模板发布
+  src: ./BiliExp-demo # 指定具体的相对目录，此目录下的文件将作为模板发布
